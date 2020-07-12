@@ -11406,7 +11406,7 @@ h5,
 
 @media (min-width: 768px) {
     .owl-carousel.home-slider .slider-item .slider-text .one-forth {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
@@ -11419,12 +11419,12 @@ h5,
 @media (max-width: 991.98px) {
     .owl-carousel.home-slider .slider-item .slider-text .one-forth {
         width: 100%;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: -1;
+        z-index: 1;
         padding: 1em;
     }
 }
