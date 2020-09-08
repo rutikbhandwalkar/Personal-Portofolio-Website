@@ -12477,7 +12477,8 @@ textarea.form-control {
 .user-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center
+    overflow: hidden;
 }
 
 .image-popup {
